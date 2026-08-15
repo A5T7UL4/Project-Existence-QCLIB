@@ -1,0 +1,40 @@
+# Ignore build directories
+/build/
+[Cc]MakeCache.txt
+[Cc]MakeFiles/
+cmake_install.cmake
+Makefile
+
+# Ignore Visual Studio files
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Ignore object and binary files
+*.obj
+*.o
+*.lo
+*.la
+*.dll
+*.exe
+*.out
+*.app
+*.lib
+*.a
+*.so
+*.dylib
+*.pdb
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore generated test files
+*.gcno
+*.gcda
+*.gcov
+
+# Ignore IDE settings
+.vscode/
+.idea/
