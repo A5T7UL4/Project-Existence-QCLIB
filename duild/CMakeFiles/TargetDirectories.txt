@@ -1,0 +1,4 @@
+C:/Users/DELL/Desktop/VS codes/Quantum_Computation_Information_draft1/duild/CMakeFiles/QCLIB.dir
+C:/Users/DELL/Desktop/VS codes/Quantum_Computation_Information_draft1/duild/CMakeFiles/INSTALL.dir
+C:/Users/DELL/Desktop/VS codes/Quantum_Computation_Information_draft1/duild/CMakeFiles/ALL_BUILD.dir
+C:/Users/DELL/Desktop/VS codes/Quantum_Computation_Information_draft1/duild/CMakeFiles/ZERO_CHECK.dir

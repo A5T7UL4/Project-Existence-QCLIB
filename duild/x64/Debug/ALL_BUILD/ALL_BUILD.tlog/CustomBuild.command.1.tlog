@@ -1,0 +1,10 @@
+^C:\USERS\DELL\DESKTOP\VS CODES\QUANTUM_COMPUTATION_INFORMATION_DRAFT1\CMAKELISTS.TXT
+setlocal
+C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe "-SC:/Users/DELL/Desktop/VS codes/Quantum_Computation_Information_draft1" "-BC:/Users/DELL/Desktop/VS codes/Quantum_Computation_Information_draft1/duild" --check-stamp-file "C:/Users/DELL/Desktop/VS codes/Quantum_Computation_Information_draft1/duild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

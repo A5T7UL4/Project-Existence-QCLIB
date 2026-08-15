@@ -1,0 +1,25 @@
+﻿  Building Custom Rule C:/Users/DELL/Desktop/VS codes/Quantum_Computation_Information_draft1/CMakeLists.txt
+  header.cpp
+C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\header.cpp(62,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\header.cpp(73,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\header.cpp(90,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\header.cpp(91,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\header.cpp(92,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\header.cpp(93,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\header.cpp(115,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\header.cpp(124,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\header.cpp(125,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\header.cpp(126,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\header.cpp(127,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\header.cpp(157,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\header.cpp(158,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\header.cpp(190,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\header.cpp(191,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\header.cpp(209,89): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\header.cpp(241,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\header.cpp(402,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\header.cpp(487,61): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\header.cpp(622,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\header.cpp(624,16): warning C4244: '=': conversion from 'unsigned __int64' to 'double', possible loss of data
+C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\header.cpp(626,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  QCLIB.vcxproj -> C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\duild\Debug\QCLIB.lib

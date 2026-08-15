@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{65213234-3651-3211-8BB8-D61FA800AE48}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>QCLIB</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\duild\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">QCLIB.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">QCLIB</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\duild\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">QCLIB.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">QCLIB</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\duild\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">QCLIB.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">QCLIB</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\duild\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">QCLIB.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">QCLIB</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/DELL/Desktop/VS codes/Quantum_Computation_Information_draft1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe "-SC:/Users/DELL/Desktop/VS codes/Quantum_Computation_Information_draft1" "-BC:/Users/DELL/Desktop/VS codes/Quantum_Computation_Information_draft1/duild" --check-stamp-file "C:/Users/DELL/Desktop/VS codes/Quantum_Computation_Information_draft1/duild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeCInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeRCInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Compiler\MSVC-C.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Compiler\MSVC-CXX.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Compiler\MSVC.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Linker\MSVC-C.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Linker\MSVC-CXX.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\duild\CMakeFiles\4.4.2\CMakeCCompiler.cmake;C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\duild\CMakeFiles\4.4.2\CMakeCXXCompiler.cmake;C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\duild\CMakeFiles\4.4.2\CMakeRCCompiler.cmake;C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\duild\CMakeFiles\4.4.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\duild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/DELL/Desktop/VS codes/Quantum_Computation_Information_draft1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe "-SC:/Users/DELL/Desktop/VS codes/Quantum_Computation_Information_draft1" "-BC:/Users/DELL/Desktop/VS codes/Quantum_Computation_Information_draft1/duild" --check-stamp-file "C:/Users/DELL/Desktop/VS codes/Quantum_Computation_Information_draft1/duild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeCInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeRCInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Compiler\MSVC-C.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Compiler\MSVC-CXX.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Compiler\MSVC.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Linker\MSVC-C.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Linker\MSVC-CXX.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\duild\CMakeFiles\4.4.2\CMakeCCompiler.cmake;C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\duild\CMakeFiles\4.4.2\CMakeCXXCompiler.cmake;C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\duild\CMakeFiles\4.4.2\CMakeRCCompiler.cmake;C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\duild\CMakeFiles\4.4.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\duild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/DELL/Desktop/VS codes/Quantum_Computation_Information_draft1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe "-SC:/Users/DELL/Desktop/VS codes/Quantum_Computation_Information_draft1" "-BC:/Users/DELL/Desktop/VS codes/Quantum_Computation_Information_draft1/duild" --check-stamp-file "C:/Users/DELL/Desktop/VS codes/Quantum_Computation_Information_draft1/duild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeCInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeRCInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Compiler\MSVC-C.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Compiler\MSVC-CXX.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Compiler\MSVC.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Linker\MSVC-C.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Linker\MSVC-CXX.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\duild\CMakeFiles\4.4.2\CMakeCCompiler.cmake;C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\duild\CMakeFiles\4.4.2\CMakeCXXCompiler.cmake;C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\duild\CMakeFiles\4.4.2\CMakeRCCompiler.cmake;C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\duild\CMakeFiles\4.4.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\duild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/DELL/Desktop/VS codes/Quantum_Computation_Information_draft1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe "-SC:/Users/DELL/Desktop/VS codes/Quantum_Computation_Information_draft1" "-BC:/Users/DELL/Desktop/VS codes/Quantum_Computation_Information_draft1/duild" --check-stamp-file "C:/Users/DELL/Desktop/VS codes/Quantum_Computation_Information_draft1/duild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeCInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeRCInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Compiler\MSVC-C.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Compiler\MSVC-CXX.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Compiler\MSVC.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Linker\MSVC-C.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Linker\MSVC-CXX.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\duild\CMakeFiles\4.4.2\CMakeCCompiler.cmake;C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\duild\CMakeFiles\4.4.2\CMakeCXXCompiler.cmake;C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\duild\CMakeFiles\4.4.2\CMakeRCCompiler.cmake;C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\duild\CMakeFiles\4.4.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\duild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\header.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\DELL\Desktop\VS codes\Quantum_Computation_Information_draft1\duild\ZERO_CHECK.vcxproj">
+      <Project>{115A20C9-D224-3FF5-9FF2-5CC900C6B5DF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
